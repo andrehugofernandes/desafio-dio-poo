@@ -134,7 +134,7 @@ Vejamos alguns Subparadigmas do Paradigma Declarativo e exemplos linguagens de p
 🔹 2.2 Paradigma Lógico: Prolog<br>
 </p>
 
-<h2> 🤝 Contribuindo </h2>
+<h3> 🤝 Contribuindo </h3>
 
 <p>
 Este repositório foi criado para fins de estudo, então contribua com ele.<br>
