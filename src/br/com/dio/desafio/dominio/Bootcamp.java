@@ -70,4 +70,6 @@ public class Bootcamp {
         return Objects.hash(nome, descricao, dataInicio, dataFim, devsInscritos, conteudos);
     }
 
+    public void getDevsInscritos(Dev dev) {
+    }
 }

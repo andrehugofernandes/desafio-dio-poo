@@ -2,6 +2,7 @@ package br.com.dio.desafio.dominio;
 
 import java.util.LinkedHashSet;
 import java.util.Objects;
+import java.util.Optional;
 import java.util.Set;
 
 public class Dev {
@@ -12,15 +13,30 @@ public class Dev {
     //Métodos
 
     public void inscreverBootcamp (Bootcamp bootcamp){
+        this.conteudosConcluidos.addAll(bootcamp.getConteudos());
+        bootcamp.getDevsInscritos(this);
+    }
+    public void progredir (){
+        Optional<Conteudo> conteudo = this.conteudosInscritos.stream().findFirst();
+        if(conteudo.isPresent()){
+            this.conteudosConcluidos.add(conteudo.get());
+            this.conteudosInscritos.remove(conteudo.get());
+        } else {
+            System.err.println("Você não está matriculado em conteúdo algum");
 
     }
-    public void progredir (){]
 
     }
+    public double calcularTotalXp(){
+          return  this.conteudosConcluidos
+                  .stream()
+                  .mapToDouble(conteudo -> conteudo.calcularXp())
+                  .sum();
+        }
 
-    public void calcularXp(){
 
-    }
+    //Criação dos Getters and Setters - Hashcode and Equals
+
 
     public String getNome() {
         return nome;
