@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cde281d5-6f0e-4a79-840d-4951010ec8bd" name="Changes" comment="Created class BootCamp and Dev - Geter and Setter, Equals and Hashcode.">
+    <list default="true" id="cde281d5-6f0e-4a79-840d-4951010ec8bd" name="Changes" comment="Finalyzing methods to class Dev an class Bootcamp">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/dio/desafio/dominio/Bootcamp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dio/desafio/dominio/Bootcamp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dio/desafio/dominio/Conteudo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dio/desafio/dominio/Conteudo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dio/desafio/dominio/Curso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dio/desafio/dominio/Curso.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/dio/desafio/dominio/Dev.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dio/desafio/dominio/Dev.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dio/desafio/dominio/Mentoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dio/desafio/dominio/Mentoria.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672976016945</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Finalyzing methods to class Dev an class Bootcamp">
+      <created>1672977931415</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1672977931415</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -135,6 +146,7 @@
     <MESSAGE value="Created classes Curso and Mentoria. Instanciated em Main class." />
     <MESSAGE value="Created calss Conteudo - Herança e Polimorfismo parte 1." />
     <MESSAGE value="Created class BootCamp and Dev - Geter and Setter, Equals and Hashcode." />
-    <option name="LAST_COMMIT_MESSAGE" value="Created class BootCamp and Dev - Geter and Setter, Equals and Hashcode." />
+    <MESSAGE value="Finalyzing methods to class Dev an class Bootcamp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finalyzing methods to class Dev an class Bootcamp" />
   </component>
 </project>
